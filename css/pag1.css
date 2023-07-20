@@ -1,0 +1,152 @@
+ *{ 
+     background-color:hsla( 222deg 20% 7% / 1); 
+  }
+/* buscador y bontes inisio y descarga  */
+.contenedor_buscador{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.buscar{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 600px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: hsla( 222deg 5% 52% / 1);
+    border-color: black;
+   
+}
+.buscar:hover{
+    background-color: rgb(146, 148, 152);
+    border-color: black;
+}
+.buscar:focus{
+    background-color: #ffffff;
+    border-color: black;
+}
+
+.botones_nav{
+    display: flex;
+    justify-content: end;
+    margin: 40px;
+}
+
+.nav_btn1{
+    margin: 4px;
+    padding: 6.5px;
+   border-radius: 8px;
+   padding-right: 8px;
+  background-color:hsla( 222deg 10% 17% / 1) ;
+  color: white;
+  border-color: hsla( 222deg 10% 17% / 1);
+}
+
+.nav_btn1:hover{
+  background-color:rgb(97, 100, 108) ;
+  color: rgb(243, 215, 215);
+  border-color: rgb(94, 97, 102);
+  
+}
+
+.nav_btn2{
+    margin: 3px;
+    padding: 6.5px;
+    padding-left: 10px;
+    padding-right: 16px;
+   border-radius: 8px;
+   color: #ffffff;
+   background-color: hsla( 352deg 71% 54% / 1);
+   border-color: hsla( 352deg 71% 54% / 1);
+    
+}
+
+
+
+/* menu deizquieras  */
+
+
+
+.logo{
+height: 30px;
+background-color: #262626;
+}
+
+.nombre{
+font-size: 34px;
+text-transform :uppercase;
+color: #ffffff;
+
+}
+
+.lista_configuracion, .li_oociones{
+    text-decoration: none;
+   list-style: none;
+}
+.opciones{
+    color: #918e8e;
+    font-size: 14px;
+    font-weight: 900;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.configuraciones{
+    margin-top: 170px;
+}
+
+.opciones:hover{
+    color: #e4dcdc;
+}
+
+.li_configuraciones{
+    color: #918e8e;   
+}
+
+.li_configuraciones:hover{
+    color: #e4dcdc;
+}
+
+.li_configuraciones-descarga{
+    
+    color: #918e8e ;
+    background-color: rgb(116, 40, 40);
+    width: 140px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 19px;
+    padding-top: 6px;
+}
+
+.li_configuraciones-descarga:hover{
+    color: #e4dcdc;  
+    background-color: rgb(141, 53, 53);
+}
+
+/* ------------img */
+
+.contendor_img{  
+    
+}
+
+
+.img_opciones{
+display: flex;
+height: 280px;
+width: 220px;
+float: inline-end;
+margin: 4px;
+border-radius: 10px;
+transition: 0.3s;
+
+}
+
+
+.img_opciones:hover{
+  border: solid 3.2px rgb(176, 164, 164) ;
+  height: 300px;
+width: 240px;
+ }
